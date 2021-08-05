@@ -1,0 +1,20 @@
+﻿Build started 16/01/2017 18:55:15.
+     1>Project "C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\Jenga.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\..\Bullet\src" /I"C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\..\FreeGLUT\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Temp\JengaWin32Debug\\" /Fd"C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Temp\JengaWin32Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BulletOpenGLApplication.cpp
+         BulletOpenGLApplication.cpp
+     1>c:\users\james\desktop\jenga physics assigment\jenga\jenga\bulletopenglapplication.cpp(67): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\james\desktop\jenga physics assigment\jenga\jenga\bulletopenglapplication.cpp(147): warning C4244: 'initializing' : conversion from 'unsigned long' to 'float', possible loss of data
+     1>c:\users\james\desktop\jenga physics assigment\jenga\jenga\bulletopenglapplication.cpp(458): warning C4316: 'GameObject' : object allocated on the heap may not be aligned 16
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Lib\Win32Debug\Jenga.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\..\Bullet\lib" /LIBPATH:"C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\..\FreeGLUT\lib\x86\Debug" opengl32.lib freeglut.lib BulletDynamics_vs2010_debug.lib BulletCollision_vs2010_debug.lib LinearMath_vs2010_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Lib\Win32Debug\Jenga.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Lib\Win32Debug\Jenga.lib" /MACHINE:X86 "C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Temp\JengaWin32Debug\BasicDemo.obj"
+         "C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Temp\JengaWin32Debug\BulletOpenGLApplication.obj"
+         "C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Temp\JengaWin32Debug\DebugDrawer.obj"
+         "C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Temp\JengaWin32Debug\GameObject.obj"
+         "C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Temp\JengaWin32Debug\main.obj"
+         Jenga.vcxproj -> C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\..\Lib\Win32Debug\Jenga.exe
+     1>Done Building Project "C:\Users\James\Desktop\Jenga Physics Assigment\Jenga\Jenga\Jenga.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.95
